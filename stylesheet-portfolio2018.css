@@ -49,4 +49,10 @@ text-align: center;
 	margin-left: 50%;
 }
 
+/*mit navn*/
+#navn {
+	font-family: 'Bad Script', cursive;
+	text-align: center;
+	font-size: 150%;
+}
 
