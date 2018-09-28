@@ -13,6 +13,33 @@ body {
 	background-color: #afcef8;
 }
 
+/*menu - flexbox container*/
+#menu {
+	display: flex;
+	height: 60px;
+	align-items: center;
+	width: 100%; 
+	position: center;
+	justify-content: center;
+}
+#menu a /*styling af links*/ {
+	width: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: white;
+	text-decoration: none;
+	padding: 36px; 
+	text-align: center;
+	font-family: "helvetica", sans-serif;
+	margin: auto;
+}
+#menu a:hover {
+	background: #afcef8;
+}
+
+#menu.text {
+	margin-top: 50px;
+}
+
 /*Den røde kant*/
 #red-box {
 	border-bottom: 8px dashed red; 
