@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*CSS reset*/
+*{
+	margin: 0; 
+	padding: 0; 
+	border: none; 
+}
+
+/*Baggrundsfarven*/
+body {
+	background-color: #afcef8;
+}
+
+/*Den røde kant*/
+#red-box {
+	border-bottom: 8px dashed red; 
+	padding: 15px;
+}
+
+/*Portfolio - overskift*/
+#overskrift{
+	border: 1px solid black;
+	background-color: white;
+	height: 15px;
+	width: 15px;
+}
+#overskrift li {
+	list-style: none;/*fjerner prikkerne i listen*/
+	display: inline; /*listen skal stå på en linje*/
+}
