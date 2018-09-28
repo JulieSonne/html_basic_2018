@@ -2,32 +2,36 @@
 /* CSS Document */
 
 /*CSS reset*/
-*{
-	margin: 0; 
-	padding: 0; 
-	border: none; 
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+/*H1 skal opfører sig ordenligt*/
+h1{
+	font-weight: normal;
+	font-size: small;
 }
 
 /*Baggrundsfarven*/
 body {
 	background-color: #afcef8;
 }
-
 /*menu - flexbox container*/
 #menu {
 	display: flex;
 	height: 60px;
 	align-items: center;
-	width: 100%; 
+	width: 100%;
 	position: center;
 	justify-content: center;
 }
-#menu a /*styling af links*/ {
+#menu a {
 	width: 50%;
 	background-color: rgba(255, 255, 255, 0.25);
 	color: white;
 	text-decoration: none;
-	padding: 36px; 
+	padding: 36px;
 	text-align: center;
 	font-family: "helvetica", sans-serif;
 	margin: auto;
@@ -35,26 +39,20 @@ body {
 #menu a:hover {
 	background: #afcef8;
 }
-
-#menu.text {
-	margin-top: 50px;
-}
-
 /*Den røde kant*/
 #red-box {
-	border-bottom: 8px dashed red; 
+	border-bottom: 8px dashed red;
 	padding: 15px;
 }
-
 /*Portfolio - overskift*/
 table.center {
-    margin-left:auto; 
-    margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 15%;
-	border-collapse: separate; border-spacing: 10px;
-  }
-
-.portfolio{
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+.portfolio {
 	border: 1px solid #666;
 	background-color: white;
 	height: 35px;
@@ -65,14 +63,14 @@ table.center {
 }
 
 /*den gule cirkel*/
-#gul {
-  height: 25px;
-  width: 25px;
-  background-color: #FFE910;
-  border-radius: 50%;
-  display: inline-block;
-  position: relative;
-text-align: center;
+.gul {
+	height: 25px;
+	width: 25px;
+	background-color: #FFE910;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
 	margin-left: 49%;
 }
 
@@ -85,43 +83,41 @@ text-align: center;
 
 /*videre i teksten*/
 .gul1 {
-  height: 25px;
-  width: 25px;
-  background-color: #FFE910;
-  border-radius: 50%;
-  display: inline-block;
-  position: relative;
-text-align: center;
+	height: 25px;
+	width: 25px;
+	background-color: #FFE910;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
 	margin-left: 49%;
 	margin-top: 500px;
 }
 .gul2 {
-  height: 25px;
-  width: 25px;
-  background-color: #FFE910;
-  border-radius: 50%;
-  display: inline-block;
-  position: relative;
-text-align: center;
+	height: 25px;
+	width: 25px;
+	background-color: #FFE910;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
 	margin-left: 49%;
 	margin-top: 50px;
 }
-
 .gul3 {
-  height: 25px;
-  width: 25px;
-  background-color: #FFE910;
-  border-radius: 50%;
-  display: inline-block;
-  position: relative;
-text-align: center;
+	height: 25px;
+	width: 25px;
+	background-color: #FFE910;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
 	margin-left: 49%;
 	margin-top: 50px;
 	margin-bottom: 500px;
 }
-
 /*work this*/
-.work{
+.work {
 	border: 1px solid #666;
 	background-color: white;
 	height: 35px;
