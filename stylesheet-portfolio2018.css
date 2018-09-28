@@ -24,7 +24,7 @@ body {
 }
 #menu a /*styling af links*/ {
 	width: 50%;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.25);
 	color: white;
 	text-decoration: none;
 	padding: 36px; 
@@ -50,7 +50,7 @@ body {
 table.center {
     margin-left:auto; 
     margin-right:auto;
-	margin-top: 10%;
+	margin-top: 15%;
 	border-collapse: separate; border-spacing: 10px;
   }
 
@@ -73,13 +73,60 @@ table.center {
   display: inline-block;
   position: relative;
 text-align: center;
-	margin-left: 50%;
+	margin-left: 49%;
 }
 
 /*mit navn*/
 #navn {
 	font-family: 'Bad Script', cursive;
 	text-align: center;
-	font-size: 150%;
+	font-size: x-large;
 }
 
+/*videre i teksten*/
+.gul1 {
+  height: 25px;
+  width: 25px;
+  background-color: #FFE910;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+text-align: center;
+	margin-left: 49%;
+	margin-top: 500px;
+}
+.gul2 {
+  height: 25px;
+  width: 25px;
+  background-color: #FFE910;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+text-align: center;
+	margin-left: 49%;
+	margin-top: 50px;
+}
+
+.gul3 {
+  height: 25px;
+  width: 25px;
+  background-color: #FFE910;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+text-align: center;
+	margin-left: 49%;
+	margin-top: 50px;
+	margin-bottom: 500px;
+}
+
+/*work this*/
+.work{
+	border: 1px solid #666;
+	background-color: white;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	box-shadow: 2.5px 2.5px 2.5px #666;
+	font-family: "helvetica", sans-serif;
+}
